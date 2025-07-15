@@ -5,7 +5,12 @@
 
 int main()
 {
-    std::cout << "Hello Wartsila!\n";
+    int loopy = 3;
+    for (int i = 0; i < loopy; ++i)
+    {
+        std::cout << "Hello Wartsila!\n";
+    }
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
